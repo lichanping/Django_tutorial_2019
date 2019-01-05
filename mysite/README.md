@@ -9,7 +9,13 @@ cd /path/to/outer/mysite
 # step 1. Install requirements
 pip install -r requirements.txt
 
-# step 2. Create database (will create a default super user: admin/admin)
+# step 2. Create database (will NOT create a default super user: admin/admin)
+          Create migration for changes in models for polls app
+          Print SQL what Django think, doesn’t actually run the migration on your database
+          Apply all migrations to the database
+python manage.py migrate
+python manage.py makemigrations polls
+python manage.py sqlmigrate polls 0001
 python manage.py migrate
 
 # step 3. create super user (optional, see step 2)
