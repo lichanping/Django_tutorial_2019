@@ -26,4 +26,9 @@ python manage.py collectstatic
 
 # step 5. start the web server (for site preview or development)
 python manage.py runserver
+
+# step 6. Runs your tests and collects coverage data of the executed files in your project
+python manage.py test polls
+coverage run --source='.' manage.py test polls
+coverage report
 ```
