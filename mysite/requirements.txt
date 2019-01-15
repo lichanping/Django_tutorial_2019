@@ -1,7 +1,7 @@
 Appium-Python-Client==0.34
 arrow==0.12.1
 coverage==4.4.1
-Django==2.1.4
+Django
 django-bootstrap-form==3.2.1
 django-coverage-plugin==1.5.0
 django-debug-toolbar==1.8
