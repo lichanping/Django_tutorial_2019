@@ -23,6 +23,6 @@ six==1.10.0
 sqlparse==0.2.3
 urllib3==1.24.1
 virtualenv==16.1.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 xlrd==1.2.0
 xmind2testlink==2.0.5
